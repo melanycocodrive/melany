@@ -1,0 +1,210 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #0b0b0b;
+}
+
+/* Encabezado de la página */
+header {
+    background: linear-gradient(to bottom,rgb(130, 55, 171),rgb(154, 107, 201),rgb(185, 79, 185));
+    color: white;
+    padding: 1em;
+    /* text-align: center; */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+.part{
+    display: flex;
+}
+
+.uuo{
+    width: 25rem;
+}
+
+.uuu{
+    width: 3rem;
+    
+}
+
+.d{
+    font-size: 40px;
+    text-align: center;   
+    margin: 1rem;
+    width: 100%;
+}
+
+.h{
+    background-color: rgb(172, 59, 178);
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 5px;
+    vertical-align: middle;
+    padding: 5px 10px;
+}
+
+/* Logo de la tienda */
+.logo {
+    width: 130px;
+    height: auto;
+    margin: 0 auto 0.5em;
+    justify-content: left;
+    left: 0;
+}
+
+/* Menú de navegación */
+nav a {
+    width: 70vw;
+    color: white;
+    text-decoration: none;
+}
+
+.papa{
+    display: flex;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+/* Estilos del main y las secciones */
+main {
+    max-width: 1200px;
+    margin: 1em auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: space-around;
+}
+
+/* Cada sección ocupa todo el ancho y tiene un margen */
+section {
+    width: 100%;
+    padding: 1em;
+    background:linear-gradient(to bottom,rgb(130, 55, 171),rgb(154, 107, 201),rgb(185, 79, 185));
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos de cada sección */
+section h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    color: #333;
+    font-size: 1.8em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5em;
+}
+
+/* Configuración de cada producto */
+.producto {
+    display: inline-block;
+    width: 25%;
+    margin: 1.5%;
+    text-align: center;
+    background: #e2e2e260;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Efecto hover para agrandar el producto */
+.producto:hover {
+    transform: scale(0.7);
+}
+
+/* Imagen del producto */
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 0.5em;
+}
+
+/* Título del producto */
+.producto h3 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+/* Precio del producto */
+.producto p {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 1em;
+}
+
+/* Botón de agregar al carrito */
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Sección del carrito */
+#carrito {
+    width: 100%;
+    padding: 2em;
+    background-color: #f9f9f9;
+    border-top: 2px solid #ddd;
+    margin-top: 2em;
+}
+
+#carrito h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+/* Lista del carrito */
+#lista-carrito {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+#lista-carrito li {
+    font-size: 1em;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Total en el carrito */
+#total {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+/* gatomiumiu */
+#u{
+    height: 300px;
+    width: 250px;
+    margin-top: 1rem;
+}
+
+.t{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
